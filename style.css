@@ -1,0 +1,113 @@
+
+body{
+  background-image: url("img/image3.png");
+  
+}
+.flexParent{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.child1{
+  width:50%;
+  margin:2%;
+  padding:2%;
+  border:5px solid #ddd;
+  background-color: white;
+}
+.child2{
+  width:50%;
+  margin:2%;
+  padding:2%;
+  border:5px solid #ddd;
+  background-color:white;
+}
+img{
+  width:70%;
+  height:auto;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+@media only screen and (mi-width:320px) and (max-width:480px){
+
+.flexParent{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.child1{
+  width:100%;
+  margin:2%;
+  padding:2%;
+  border:5px solid #ddd;
+}
+.child2{
+  width:100%;
+  margin:2%;
+  padding:2%;
+  border:5px solid #ddd;
+}
+}
+@media only screen and (mi-width:320px) and (max-width:480px){
+
+.flexParent{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.child1{
+  width:100%;
+  margin:2%;
+  padding:2%;
+  border:5px solid #ddd;
+}
+.child2{
+  width:100%;
+  margin:2%;
+  padding:2%;
+  border:5px solid #ddd;
+}
+}
+@media only screen and (mi-width:481px) and (max-width:768px){
+
+.flexParent{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.child1{
+  width:100%;
+  margin:2%;
+  padding:2%;
+  border:5px solid #ddd;
+}
+.child2{
+  width:100%;
+  margin:2%;
+  padding:2%;
+  border:5px solid #ddd;
+}
+}
+@media only screen and (mi-width:729px) and (max-width:1024px){
+
+.flexParent{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.child1{
+  width:100%;
+  margin:2%;
+  padding:2%;
+  border:5px solid #ddd;
+}
+.child2{
+  width:100%;
+  margin:2%;
+  padding:2%;
+  border:5px solid #ddd;
+}
+}

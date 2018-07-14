@@ -1,0 +1,49 @@
+{
+"basics":{
+  "name":"Anusha",
+  "email":"Anushadarlinggmail.com",
+  "phn no":"4567328901"
+},
+"career":{
+     "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+  },
+  "education":[
+    {
+    "degree":"Btech",
+    "institute":"Avanthi",
+    "data":["2015-2019","76%"]
+  },
+  {
+    "degree":"inter",
+    "institute":"narayana",
+    "data":["2013-2015","88%"]
+  },
+  {
+    "degree":"State Board",
+    "institute":"PVHS",
+    "data":["2012-2013","88%"]
+  }
+],
+"skills":[
+  {
+    "title":"Programing Languages",
+    "info":["c","java","Python",".net"]
+  },
+  {
+  "title":"Data Bases",
+  "info":["mongoDB","MySql","Oracle"]
+},
+{
+  "title":"Web Technologies",
+  "info":["HTML5","CSS3","JavaScript"]
+},
+{
+  "title":"Libraries and frameworks",
+  "info":["ionic","Angular","Expressjs",".net"]
+},
+{
+  "title":"OS",
+  "info":["Linux","Windows","DOS"]
+}
+]
+}
